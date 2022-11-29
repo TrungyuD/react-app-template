@@ -16,7 +16,7 @@ phases:
     commands:
       # install dependencies
       - echo Installing dependencies
-      - yarn
+      - yarn install --ignore-engines
   build:
     commands:
       # tests
